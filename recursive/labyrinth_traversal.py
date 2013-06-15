@@ -61,5 +61,5 @@ steps = []
 traverseCell(labyrinth, 0, 0, steps)
 
 # this program will find every possible path between two points of a labyrinth, denoted by a matrix (two-dimensional
-# array) and print it. "w" marks a wall (unpassable cell), "*" marks a passable cell, "f" marks the finish, "v" marks
-# a visited cell.
+# array) and print them. "w" marks a wall (unpassable cell), "*" marks a passable cell, "f" marks the finish, "v" 
+# marks a visited cell.
