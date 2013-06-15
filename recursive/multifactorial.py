@@ -14,6 +14,6 @@ levels = int(raw_input('Enter levels: '))
 print multitorial(number, levels)
 
 # we all know the factorial of a number is the product of all numbers from 1 to the number [1 * 2 *...* number = number!]
-# the superfactorial of a number is the product of all factorials from 1 to the number [1! * 2 *...* number! = number!!]
-# if the factorial of a number is level 1, and the superfactorial - level 2, this program can calculate the multifactorial
-# of a number with arbitrary levels
+# the superfactorial of a number is the product of all factorials from 1 to the number [1! * 2! *...* number! = number!!]
+# if we call the factorial of a number level 1, and the superfactorial - level 2, this program can calculate the factorial
+# to whatever level you give it
