@@ -63,3 +63,5 @@ solveSudoku(sudoku, 0, 0)
 # this program will print all solutions of a given sudoku, given as a two dimensional array (matrix), where the 
 # zeroes (0) mark empty cells. it will also work with any sudoku, with a side length, which has an exact root, 
 # e.g. 4, 9, 16, 25, etc.
+# if you run it with an empty matrix (filled with zeroes), it will print out every possible sudoku solution, but
+# be careful, as they are about 6,670,903,752,021,072,936,960 for a 9x9 sudoku! :)
