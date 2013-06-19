@@ -21,3 +21,5 @@ printVariations(numbers, 0, limit)
 
 # an extremely simple recursive algorithm, which will print out every variation
 # from 1 to N (range/limit), for k numbers (count)
+# I know this probably isn't the best way to initialize a list with a length of n,
+# in Python, but it works well enough for this case
