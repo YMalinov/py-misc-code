@@ -9,11 +9,11 @@ def calcPi(decimalPlaces):
 
   prec = mpf(1.0 / mpf(10**decimalPlaces))
   while (abs(a - b) >= prec):
-  	aOld = a
-  	a = (a + b) / 2.0
-  	b = sqrt(aOld * b)
-  	t -= p * (aOld - a) ** 2
-  	p *= 2.0
+    aOld = a
+    a = (a + b) / 2.0
+    b = sqrt(aOld * b)
+    t -= p * (aOld - a) ** 2
+    p *= 2.0
 
   dividend = (a + b) ** 2
   divisor = 4 * t
