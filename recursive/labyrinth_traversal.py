@@ -1,3 +1,5 @@
+#!/bin/python
+
 def printMatrix(matrix):
   totalRows = len(matrix)
   totalCols = len(matrix[0])

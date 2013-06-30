@@ -1,3 +1,5 @@
+#!/bin/python
+
 def multitorial(number, level):
   if (level == 0):
     return number

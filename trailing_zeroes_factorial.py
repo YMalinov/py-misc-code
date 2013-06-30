@@ -1,3 +1,5 @@
+#!/bin/python
+
 import math
 
 def trailingZeroes(number):

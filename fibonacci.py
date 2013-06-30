@@ -1,3 +1,5 @@
+#!/bin/python
+
 inp = int(raw_input('Enter which member: '))
 firstNum = 0
 secondNum = 1

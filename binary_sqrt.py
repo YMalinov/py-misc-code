@@ -1,3 +1,5 @@
+#!/bin/python
+
 def squareRootBi(x, epsilon):  
   assert epsilon > 0, 'epsilon must be postive, not ' + str(epsilon) 
   low = 0 

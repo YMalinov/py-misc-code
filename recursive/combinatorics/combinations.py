@@ -1,3 +1,5 @@
+#!/bin/python
+
 def printCombinations(numbers, index, limit):
   if index == len(numbers):
     print numbers

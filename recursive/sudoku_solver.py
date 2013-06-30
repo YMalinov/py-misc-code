@@ -1,3 +1,5 @@
+#!/bin/python
+
 import math
 
 def solveSudoku(matrix, row, col):

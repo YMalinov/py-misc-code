@@ -1,3 +1,5 @@
+#!/bin/python
+
 def stringRepeater(char, count):
   result = ""
   for i in range(0, count):

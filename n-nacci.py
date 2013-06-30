@@ -1,3 +1,5 @@
+#!/bin/python
+
 def readInput(count):
   list = []
   for i in range(0, count):
